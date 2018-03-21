@@ -17,6 +17,7 @@
   "dependencies": {
     "bluebird": "^3.5.0",
     "colors": "^1.1.2",
+    "config": "^1.30.0",
     "ramda": "0.24.1",
     "superagent": "^3.5.2",
     "superagent-promise": "^1.1.0",
