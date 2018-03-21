@@ -34,7 +34,11 @@ cli(yargs
         describe: 'Se definido, será enviado um SMS ao invés de uma chamada',
         type: 'boolean'
     })
-    .demandOption(['para', 'token'])
+    .option('set_token',{
+        describe: 'Se definido, salva o token como padrão.',
+        type: 'boolean'
+    })
+    .demandOption(['para'])
     .locale('pt_BR')
     .strict()
     .help()
